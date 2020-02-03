@@ -1,0 +1,13 @@
+        body {
+            background-image: url("rainbow.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .container {
+            margin-top: 200px;
+        }
+        
+        .jumbotron h3 {
+            text-align: center;
+        }
