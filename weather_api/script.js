@@ -6,9 +6,9 @@ let input_country = document.getElementById('input');
 function loadData() {
     const xhr = new XMLHttpRequest();
 
-    const first_url = 'http://api.openweathermap.org/data/2.5/weather?q=';
+    const first_url = '...';
     let city_url = input_country.value;
-    const last_url = '&appid=26c4e35eef6d7939ec05b32ac035525c';
+    const last_url = '...';
     const url = first_url + city_url + last_url;
 
     xhr.open('GET', url, true);
